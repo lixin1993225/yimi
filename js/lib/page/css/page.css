@@ -1,0 +1,40 @@
+.zzsc {
+    margin: 0 auto;
+    width: 580px;
+    height: 80px;
+    border: 1px solid #F00
+}
+
+.page {
+    list-style: none;
+}
+
+.page > li {
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.page .pageItem {
+    border: solid thin #DDDDDD;
+    margin: 5px;
+}
+
+.page .pageItemActive {
+    border: solid thin #42bd7e;
+    margin: 5px;
+    background-color: #42bd7e;
+    color: white;
+}
+
+.page .pageItem:hover {
+    border: solid thin #42bd7e;
+    background-color: #42bd7e;
+    color: white;
+}
+
+.page .pageItemDisable {
+    border: solid thin #DDDDDD;
+    margin: 5px;
+    background-color: #DDDDDD;
+}

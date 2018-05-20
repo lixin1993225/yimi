@@ -1,0 +1,99 @@
+/*头部*/
+.head {
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: -10px;
+}
+
+.head .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .5);
+}
+
+.head_top {
+    width: 1000px;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+}
+
+.head_top .logo {
+    /*float: left;*/
+    position: relative;
+}
+
+.head_top .logo img {
+    float: left;
+    margin-top: 11px;
+}
+
+/*右边的*/
+
+.other {
+    float: right;
+    line-height: 70px;
+    color: #42bd7e;
+}
+
+.other ul li {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+
+.other ul li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.other ul li img {
+    margin-top: 30px !important;
+}
+
+.other ul li a:hover, .other ul li.hover a, #dynamic a:hover {
+    color: #42bd7e;
+}
+
+/*页脚*/
+
+#footer {
+    background-color: #f0f0f0;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+}
+
+#footer .left {
+    width: 540px;
+    margin: 0 auto;
+}
+
+#footer .left .logo {
+    margin-top: 50px;
+}
+
+#footer .left .copyright {
+    text-align: center;
+    margin-top: 36px;
+}
+
+#footer .left .copyright img {
+    visibility: hidden;
+}
+
+#footer .right {
+    margin-top: -138px;
+    margin-left: 770px;
+    text-align: center;
+    position: relative;
+}
+
+/*居中*/
+.text_center {
+    text-align: center;
+}

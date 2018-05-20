@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.addWrap {
+    position: relative;
+    /*width: 1920px;*/
+    /*height: 580px;*/
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.addWrap .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+}
+
+.addWrap .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.addWrap .swipe-wrap > div {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+/*点点*/
+
+#position {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 8px;
+    margin: 0;
+    background: #00000000;
+    /*opacity: 0.4;*/
+    width: 100%;
+    /*filter: alpha(opacity=50);*/
+    text-align: center;
+}
+
+.positionA {
+
+}
+
+#position li {
+    width: 70px;
+    height: 8px;
+    margin: 10px 8px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#position li.cur {
+    background-color: #42bd7e;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+

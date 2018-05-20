@@ -1,0 +1,678 @@
+.module-container{
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.module{
+    width: 100%;
+    text-align: center;
+}
+.module p{
+    /*font-size: 36px;*/
+}
+.module span{
+    font-size: 18px;
+}
+.firstModule{
+    -webkit-background-image: url("bg1.jpg")/*tpa=http://reading.migoabc.com/images/bg1.jpg*/;
+    -webkit-background-size: 1920px 768px;
+    -moz-background-image: url("bg1.jpg")/*tpa=http://reading.migoabc.com/images/bg1.jpg*/;
+    -moz-background-size: 1920px 768px;
+    -o-background-image: url("bg1.jpg")/*tpa=http://reading.migoabc.com/images/bg1.jpg*/;
+    -o-background-size: 1920px 768px;
+    background-image: url("bg1.jpg")/*tpa=http://reading.migoabc.com/images/bg1.jpg*/;
+    background-size: 1920px 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 768px;
+}
+.firstModule img{
+    margin-top: 195px;
+}
+.firstModule p{
+    margin-top: 50px;
+}
+.firstModule p img{
+    width: 766px;
+    height: auto;
+    margin-top: 0;
+}
+.secondModule{
+    height: 175px;
+    background-color: #0097bb;
+    padding-top: 75px;
+}
+.secondModule p{
+    margin-bottom: 23px;
+}
+.secondModule p img{
+    width: 980px;
+    height: auto;
+}
+.secondModule span{
+    color: #fff;
+    line-height: 32px;
+}
+.thirdModule{
+    height: 695px;
+    background-color: #eaeaea;
+    padding-top: 70px;
+}
+.thirdModule p{
+    margin-bottom: 30px;
+}
+.thirdModule p img{
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin-top: 0;
+}
+.thirdModule span{
+    position: relative;
+    color:#333;
+}
+.thirdModule img{
+    margin-top:70px;
+}
+.fourthModule{
+    height: 750px;
+    background-color: #fff;
+    padding-top: 70px;
+}
+.fourthModule p{
+    margin-bottom: 30px;
+}
+.fourthModule p img{
+    position: relative;
+    width: 394px;
+    height: auto;
+    margin-top: 0;
+}
+.fourthModule span{
+    position: relative;
+    line-height: 32px;
+    color: #333;
+}
+.fourthModule img{
+    margin-top: 30px;
+}
+.fifthModule{
+    -webkit-background-image: url("bg4.jpg")/*tpa=http://reading.migoabc.com/images/bg4.jpg*/;
+    -webkit-background-size: 1920px 768px;
+    -moz-background-image: url("bg4.jpg")/*tpa=http://reading.migoabc.com/images/bg4.jpg*/;
+    -moz-background-size: 1920px 768px;
+    -o-background-image: url("bg4.jpg")/*tpa=http://reading.migoabc.com/images/bg4.jpg*/;
+    -o-background-size: 1920px 768px;
+    background-image: url("bg4.jpg")/*tpa=http://reading.migoabc.com/images/bg4.jpg*/;
+    background-size: 1920px 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 768px;
+}
+.fifthModule p.title{
+    margin-top: 70px;
+}
+.fifthModule p img{
+    position:relative ;
+    width: 429px;
+    height: auto;
+}
+.fifthModule div.content{
+    width: 1120px;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fifthModule div.content ul li{
+    position: relative;
+    float: left;
+    width: 27.666%;
+    background-color: rgba(233, 227, 222, 0.3);
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    padding-left: 1.3%;
+    padding-right: 1.3%;
+    border-radius: 8px;
+}
+.fifthModule div.content ul li .container{
+    background-color: #f0efec;
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    height: 455px;
+}
+.fifthModule .content .container .div1{
+    background-color: #b2a197;
+    height: 35px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.fifthModule .content .container p{
+    color: #846d5f;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.fifthModule .content .container img{
+    width: 160px;
+    height: auto;
+}
+.fifthModule .content .container img.only{
+    margin-top: 50px;
+}
+.fifthModule .content .container div{
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+.fifthModule .content .container div.div2{
+    margin-bottom: 15px;
+}
+.fifthModule div.content ul li .circle{
+    height: 25px;
+    width: 26px;
+    border: 1px solid #b2a197;
+    background-color: #f0efec;
+    border-radius: 50%;
+    margin:13px auto;
+}
+.sixthModule{
+    height: 700px;
+    padding-top: 70px;
+    background-color: #fff;
+}
+.sixthModule p{
+    margin-bottom: 27px;
+}
+.sixthModule p img{
+    position: relative;
+    width: 789px;
+    height: auto;
+    margin-top: 0;
+}
+.sixthModule span{
+    position: relative;
+    line-height: 32px;
+    color: #333;
+}
+.sixthModule img{
+    margin-top: 20px;
+}
+.seventhModule{
+    -webkit-background-image: url("bg6.jpg")/*tpa=http://reading.migoabc.com/images/bg6.jpg*/;
+    -webkit-background-size: 1920px 828px;
+    -moz-background-image: url("bg6.jpg")/*tpa=http://reading.migoabc.com/images/bg6.jpg*/;
+    -moz-background-size: 1920px 828px;
+    -o-background-image: url("bg6.jpg")/*tpa=http://reading.migoabc.com/images/bg6.jpg*/;
+    -o-background-size: 1920px 828px;
+    background-image: url("bg6.jpg")/*tpa=http://reading.migoabc.com/images/bg6.jpg*/;
+    background-size: 1920px 828px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 828px;
+}
+.seventhModule .module-container{
+    position: relative;
+}
+.seventhModule img{
+    position: relative;
+    margin-top: 85px;
+    margin-left: -25px;
+}
+.seventhModule .content{
+    width: 605px;
+    height: 540px;
+    background-color: #fff;
+    position: absolute;
+    right: 33px;
+    top: 140px;
+    padding: 30px 60px;
+}
+.seventhModule .content p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 55px;
+}
+.seventhModule .content p img{
+    width: 431px;
+    height: auto;
+    margin: 0;
+}
+.seventhModule .content .marginTop{
+    margin-top: 16px;
+}
+.seventhModule .content span{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.seventhModule .content .tend{
+    text-align: center;
+    margin-top: 40px;
+}
+.seventhModule .content .tend img{
+    margin-top: 25px;
+    margin-left: 0;
+}
+.eighthModule{
+    height: 700px;
+    background-color: #fff;
+    padding-top: 70px;
+}
+.eighthModule p.title{
+    margin-bottom: 25px;
+}
+.eighthModule p.title img{
+    width: 809px;
+    height: auto;
+}
+.eighthModule span.message{
+    color:#333;
+    line-height: 32px;
+}
+.eighthModule .feature{
+    -webkit-background-image: url("bg9.png")/*tpa=http://reading.migoabc.com/images/bg9.png*/;
+    -webkit-background-size: 1920px 540px;
+    -moz-background-image: url("bg9.png")/*tpa=http://reading.migoabc.com/images/bg9.png*/;
+    -moz-background-size: 1920px 540px;
+    -o-background-image: url("bg9.png")/*tpa=http://reading.migoabc.com/images/bg9.png*/;
+    -o-background-size: 1920px 540px;
+    background-image: url("bg9.png")/*tpa=http://reading.migoabc.com/images/bg9.png*/;
+    background-size: 1920px 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 540px;
+    margin-top: 36px;
+}
+.eighthModule .feature .content{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.eighthModule .feature .content p{
+    margin-top: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.eighthModule .feature .content p img{
+    width: 405px;
+    height: auto;
+    margin-left: -7px;
+}
+.eighthModule .feature .content .s1{
+    line-height: 32px;
+}
+.eighthModule .feature .content ul{
+    margin-top: 100px;
+}
+.eighthModule .feature .content ul li{
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 45px;
+}
+.eighthModule .feature .content ul li img{
+    margin-bottom: 20px;
+}
+.ninthModule{
+    position:relative;
+    width: 100%;
+    height: 768px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.ninthModule img.title{
+    position: absolute;
+    width: 575px;
+    height: auto;
+    left: 50%;
+    margin-left: -287px;
+    top: 75px;
+}
+.ninthModule .iconGroup{
+    position: absolute;
+    width: 1100px;
+    left: 50%;
+    margin-left: -550px;
+    top: 400px;
+}
+.ninthModule .iconGroup img{
+    cursor: pointer;
+}
+.ninthModule .iconGroup img:hover{
+    box-shadow: 0 0 5px 2px #58423f;
+}
+.ninthModule .page{
+    -webkit-background-size: 1920px 768px;
+    -moz-background-size: 1920px 768px;
+    -o-background-size: 1920px 768px;
+    background-size: 1920px 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 768px;
+}
+.ninthModule .page-1{
+    -webkit-background-image: url("bg7.jpg")/*tpa=http://reading.migoabc.com/images/bg7.jpg*/;
+    -moz-background-image: url("bg7.jpg")/*tpa=http://reading.migoabc.com/images/bg7.jpg*/;
+    -o-background-image: url("bg7.jpg")/*tpa=http://reading.migoabc.com/images/bg7.jpg*/;
+    background-image: url("bg7.jpg")/*tpa=http://reading.migoabc.com/images/bg7.jpg*/;
+}
+.ninthModule .page-2{
+    -webkit-background-image: url("bg7-2.jpg")/*tpa=http://reading.migoabc.com/images/bg7-2.jpg*/;
+    -moz-background-image: url("bg7-2.jpg")/*tpa=http://reading.migoabc.com/images/bg7-2.jpg*/;
+    -o-background-image: url("bg7-2.jpg")/*tpa=http://reading.migoabc.com/images/bg7-2.jpg*/;
+    background-image: url("bg7-2.jpg")/*tpa=http://reading.migoabc.com/images/bg7-2.jpg*/;
+}
+.ninthModule .page-3{
+    -webkit-background-image: url("bg7-3.jpg")/*tpa=http://reading.migoabc.com/images/bg7-3.jpg*/;
+    -moz-background-image: url("bg7-3.jpg")/*tpa=http://reading.migoabc.com/images/bg7-3.jpg*/;
+    -o-background-image: url("bg7-3.jpg")/*tpa=http://reading.migoabc.com/images/bg7-3.jpg*/;
+    background-image: url("bg7-3.jpg")/*tpa=http://reading.migoabc.com/images/bg7-3.jpg*/;
+}
+.ninthModule .page-4{
+    -webkit-background-image: url("bg7-4.jpg")/*tpa=http://reading.migoabc.com/images/bg7-4.jpg*/;
+    -moz-background-image: url("bg7-4.jpg")/*tpa=http://reading.migoabc.com/images/bg7-4.jpg*/;
+    -o-background-image: url("bg7-4.jpg")/*tpa=http://reading.migoabc.com/images/bg7-4.jpg*/;
+    background-image: url("bg7-4.jpg")/*tpa=http://reading.migoabc.com/images/bg7-4.jpg*/;
+}
+.page .content{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 280px;
+}
+.page .content p{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 25px;
+}
+.page .content span{
+    font-size: 16px;
+    color:#333;
+    line-height: 30px;
+}
+.tenthModule{
+    height: 625px;
+    background-color: #eaeaea;
+    padding-top: 55px;
+}
+.tenthModule ul.title{
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tenthModule ul.title li{
+    float: left;
+    font-size: 40px;
+    padding: 5px 18px;
+    text-align: center;
+ }
+.tenthModule ul.title li img{
+    height: 29px;
+    width: auto;
+    cursor: pointer;
+}
+.tenthModule .content {
+    width: 1140px;
+    height: 450px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    padding-top: 30px;
+}
+.tenthModule .content .content1{
+    position: relative;
+    width: 1100px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.tenthModule .content .content1 ul{
+    height: 52px;
+    margin-bottom: 8px;
+    border:1px solid #eaeaea;
+}
+.tenthModule .content .content1 ul.header{
+    background-color: #eaeaea;
+}
+.tenthModule .content .content1 ul.even{
+    background-color: #f6f6f6;
+}
+.tenthModule .content .content1 ul li{
+    float: left;
+    font-size: 16px;
+    color: #333;
+    width: 14%;
+    text-align: center;
+    line-height: 52px;
+}
+.tenthModule .content .content2{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.tenthModule .content2 p{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 45px;
+}
+.tenthModule .content .content2 ul li{
+    float: left;
+    width: 33.333333%;
+}
+.tenthModule .content2  li div{
+    text-align: left;
+    background-color: #eee;
+    width: 308px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.tenthModule .content2  li div.marginLeft{
+    padding-left: 70px;
+    width: 268px;
+ }
+.tenthModule .content2  li button{
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 38px;
+    margin-top: 35px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.tenthModule .content2  li button.blue{
+    background-color: #14AEF6;
+}
+.tenthModule .content2  li button.yellow{
+    background-color: #F6B913;
+}
+.tenthModule .content2  li button.orange{
+    background-color: #FF5317;
+}
+.tenthModule .content2  li button:hover{
+    box-shadow: 0 0 5px 1px rgba(25, 24, 24, 0.8);
+}
+.tenthModule .content3{
+    position: relative;
+    margin-top:50px;
+}
+.tenthModule .content3 ul{
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+}
+.tenthModule .content3 ul.odd{
+    background-color:#F6F6F6 ;
+}
+.tenthModule .content3 ul li{
+    float: left;
+    font-size: 16px;
+    color:#333;
+    line-height: 50px;
+    text-align: left;
+}
+.tenthModule .content3 ul li.col-1{
+    width: 15%;
+}
+.tenthModule .content3 ul li.col-5{
+    width: 45%;
+}
+.tenthModule .content3 ul li.col-4{
+    width: 40%;
+}
+.tenthModule .content3 p.p1{
+    color: #333;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.tenthModule .content3 p.p2{
+    color: #F7B895;
+    font-size: 21px;
+}
+/*联系电话模块*/
+.phoneModal{
+    -webkit-background-image: url("bg8.jpg")/*tpa=http://reading.migoabc.com/images/bg8.jpg*/;
+    -webkit-background-size: 1920px 300px;
+    -moz-background-image: url("bg8.jpg")/*tpa=http://reading.migoabc.com/images/bg8.jpg*/;
+    -moz-background-size: 1920px 300px;
+    -o-background-image: url("bg8.jpg")/*tpa=http://reading.migoabc.com/images/bg8.jpg*/;
+    -o-background-size: 1920px 300px;
+    background-image: url("bg8.jpg")/*tpa=http://reading.migoabc.com/images/bg8.jpg*/;
+    background-size: 1920px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 300px;
+}
+.phoneModal .content{
+    padding-top: 85px;
+    padding-left: 240px;
+}
+.phoneModal .content p{
+    margin-bottom: 12px;
+}
+.phoneModal .content p img{
+    width: 251px;
+    height: auto;
+}
+.phoneModal .content span{
+    font-size: 24px;
+    color: #333;
+    line-height: 35px;
+}
+/*加盟介绍模块*/
+.joinModal{
+    height: 618px;
+    background-color: #edbe2b;
+    padding-top: 70px;
+}
+.joinModal p{
+    margin-bottom: 25px;
+}
+.joinModal p img{
+    width: 449px;
+    height: auto;
+}
+.joinModal span{
+    font-size: 24px;
+    color:#fff;
+}
+.joinContent-container{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.joinContentDiv{
+    width: 360px;
+    height: 480px;
+    background-color: #fff;
+    float: left;
+    margin-left: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: margin-top 0.4s;
+    -moz-transition: margin-top 0.4s;
+    -webkit-transition: margin-top 0.4s;
+    -o-transition: margin-top 0.4s;
+}
+.joinContentDiv:hover{
+    box-shadow: 0 7px 30px 2px rgba(152, 152, 152, 0.45);
+    margin-top: -8px;
+}
+.joinContentDiv img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: transform 0.8s;
+    -moz-transition: transform 0.8s;
+    -webkit-transition: transform 0.8s;
+    -o-transition: transform 0.8s;
+}
+.joinContentDiv:hover img{
+    transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+.joinContentDiv span{
+    font-size: 16px;
+    color: #333;
+}
+.joinContentDiv ul{
+    margin-left: 70px;
+    line-height: 27px;
+    margin-top: 25px;
+}
+.joinContentDiv ul li{
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+.ebookModule{
+    height: 740px;
+    background-color: #f8f8f8;
+    padding-top: 65px;
+}
+.ebookModule p{
+    margin-bottom: 25px;
+}
+.ebookModule p img{
+    position: relative;
+}
+.ebookModule span{
+    position: relative;
+    line-height: 32px;
+    color: #333;
+}
+.ebookImgs{
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 85px;
+}
+.ebookImgs .i2{
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>格物学堂-关于我们</title>
+    <link href="css/home.css" tppabs="http://www.migoedu.com/css/home.css" type="text/css" rel="stylesheet">
+    <link href="css/about.css" tppabs="http://www.migoedu.com/css/about.css" type="text/css" rel="stylesheet">
+    <link href="css/head_footer.css" tppabs="http://www.migoedu.com/css/head_footer.css" type="text/css" rel="stylesheet">
+    <link href="js/lib/page/css/page.css" tppabs="http://www.migoedu.com/js/lib/page/css/page.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.ico">
+</head>
+<body>
+<div id="mainbody">
+    <div class="content bg-w">
+        <div id="head" class="head"></div>
+        <div class="center">
+            <div class="about">
+                <div class="details_left">
+                    <img src="images/about/about_us.png" tppabs="http://www.migoedu.com/images/about/about_us.png">
+                    <ul id="newlist" class="newlist">
+                        <li><a id="li_1" href="javascript:void(0);" class="on">公司简介</a></li>
+                        <li><a id="li_2" href="javascript:void(0);">联系我们</a></li>
+                        <li><a id="li_3" href="javascript:void(0);">公司动态</a></li>
+                    </ul>
+                </div>
+
+                <div id="content_1" class="details_right">
+                    <div class="title">公司简介</div>
+                    <div class="content">
+                        <p>
+                            格物学堂成立于2014年6月(隶属于格物学堂智能科技（上海）有限公司)，致力于K12学生的自主式学习能力素质培养及教育服务。格物学堂旗下设有三大业务体系，包括一米微秀（互联网招生专家）、格物学堂STEAM创客课程与格物学堂培生阅读馆（MIGO创新课程）、课后三点（K12素质学习平台）。
+                        </p>
+                        <p>
+                            格物学堂以“一米宽，千米深”为核心发展理念，用科技驱动教育进步。自创立以来，格物学堂已为超过10000家教育培训机构提供互联网招生服务，并通过MIGO创新课程以及课后三点半平台服务数百万的K12学生，已经成长为国内顶尖的素质教育服务提供商。
+                        </p>
+                    </div>
+                </div>
+
+                <div id="content_2" class="details_right none">
+                    <div class="title">总部地址</div>
+                    <div class="content">
+                        上海市宜山路1388号民润大厦3号楼5层
+                    </div>
+                    <div class="title">客服电话</div>
+                    <div class="content">
+                        <div style="width: 325px;">
+                            <span>
+                                400-670-3306
+                            </span>
+                            <span style="float: right;">
+                                021-61131332
+                            </span>
+                        </div>
+                        <span style="clear: both"></span>
+                    </div>
+
+                    <div class="title">华东运营</div>
+                    <div class="content">
+                        省无锡市锡山区东亭街道迎宾北路1号科创中心7楼
+                    </div>
+
+                    <div class="title">客服电话</div>
+                    <div class="content">
+                        021-61131332
+                    </div>
+
+                    <div class="title">华北运营</div>
+                    <div class="content">
+                        河南省郑州市管城区紫荆山路69号佳博商务A座六楼
+                    </div>
+
+                    <div class="title">客服电话</div>
+                    <div class="content">
+                        0371-89963232
+                    </div>
+
+
+                    <div class="title">客服电话</div>
+                    <div class="content">
+                        0731-83990608
+                    </div>
+                </div>
+
+                <!--公司动态-->
+
+                <div id="content_3" class="details_right none">
+                    <div class="title">公司动态</div>
+                    <div id="dynamic" class="content">
+                        <!--列表-->
+                        <div id="dynamic_list">
+
+                        </div>
+                        <!--<div style="margin: 0 auto;padding-left: 100px;" id="page"-->
+                        <!--class="m-pagination"></div>-->
+                        <ul class="page" maxshowpageitem="5" pagelistcount="10" id="page"></ul>
+                    </div>
+
+                    <div id="news_detail" class="content none">
+                        <!--详情 style=" height:600px; overflow:auto"-->
+                        <div class="details_right bj">
+                            <div id="details_title" class="details_title"></div>
+                            <div id="details_text" class="details_text"></div>
+                        </div>
+                        <div class="back">
+                            <a onclick="showOrHideDetail()">
+                                <img src="images/about/back.svg" tppabs="http://www.migoedu.com/images/about/back.svg">
+                                返回
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <!--页脚-->
+        <div id="footer"></div>
+
+        <div style="text-align: center;padding: 10px;">
+            <span>@版权所有 格物学堂智能科技（上海）有限公司</span>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/head_footer.js"></script>
+<script src="js/lib/page/js/page.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    headShowIndex(5);
+
+    footerShowIndex();
+
+    //左边的
+    var lis = [$('#li_1'), $('#li_2'), $('#li_3')];
+    //右边的内容
+    var contents = [$('#content_1'), $('#content_2'), $('#content_3')];
+
+    //循环左边的列表
+    for (var i = 0; i < lis.length; i++) {
+        attachClick(i);
+    }
+    //给左边的a标签添加点击事件
+    function attachClick(i) {
+        lis[i].click(function () {
+            setSelectStyle(i);
+        });
+    }
+    //设置左边选中哪一个
+    function setSelectStyle(i) {
+        for (var j = 0; j < lis.length; j++) {
+            if (j == i) {
+                //当前的
+                lis[i].addClass("on");
+                contents[i].removeClass('none');
+            } else {
+                lis[j].removeClass("on");
+                contents[j].addClass('none');
+            }
+        }
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    //
+    // 新闻开始
+    //
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    /**
+     * 获取新闻
+     */
+
+    var pageSize = 5;
+    var page = 1;
+    var isLoadSuccess = false;
+
+    getNewsList();
+    function getNewsList() {
+        $.ajax({
+            type: 'GET',
+          //  url: "http://omtest.vishow.com.cn/article/list?page=" + page + "&pageSize=" + pageSize,
+            url: "http://wwwapi.migoedu.com/website/article/list?page=" + page + "&pageSize=" + pageSize,
+            dataType: 'json',
+            success: function (data) {
+                var news = '';
+                var content = data.data.content;
+                for (var i = 0; i < content.length; i++) {
+                    var current = content[i];
+                    news += getTemplate(current.id, current.title, current.picture, current.content, current.createDate);
+                }
+                $('#dynamic_list').html(news);
+                //分页插件
+                if (!isLoadSuccess) {
+                    var callback = function (p) {
+                        page = p;
+                        if (!isLoadSuccess && p === 1) {
+                            //如果是第一次,避免重复请求
+                            return;
+                        }
+                        getNewsList();
+                    };
+                    isLoadSuccess = true;
+                    $("#page").initPage(data.data.totalElements, 1, callback);
+                }
+            }
+        });
+    }
+
+    function getTemplate(id, title, picture, content, createDate) {
+       // var url_head = 'http://vishowtest.b0.upaiyun.com/';
+        var url_head = 'http://migostorage.b0.upaiyun.com/';
+        picture = url_head + picture;
+        var dateStr = new Date(createDate).toLocaleDateString();
+        content = common.cutString(common.removeAllHtml(content), 60);
+        if (content == '') content = '...';
+        return "<ul> " +
+                "<li class='list_img'><img src='" + picture + "'>" +
+                "</li> " +
+                "<li class='list_txt'> " +
+                "<a onclick='showOrHideDetail(" + id + ")' href='javascript:void(0);' class='list_txt_title'>" + title + "</a> " +
+                "<span>" + content + "</span> " +
+                "<span class='time'>" + dateStr + "</span> " +
+                "</li> " +
+                "</ul>";
+    }
+
+    /**
+     * 初始显示列表，每调用一次，就反过来
+     */
+
+    var isShowNewsList = true;
+
+    var currNewsId = 0;
+
+    function showOrHideDetail(id) {
+        currNewsId = id;
+        if (isShowNewsList) {
+            getNewsDetail();
+            $('#dynamic').addClass('none');
+            $('#news_detail').removeClass('none');
+        } else {
+            $('#dynamic').removeClass('none');
+            $('#news_detail').addClass('none');
+        }
+        isShowNewsList = !isShowNewsList;
+    }
+
+    function getNewsDetail() {
+        $.ajax({
+            type: 'GET',
+          //  url: "http://omtest.vishow.com.cn/article/getArticle?id=" + currNewsId,
+            url: "http://wwwapi.migoedu.com/website/article/getArticle?id=" + currNewsId,
+            dataType: 'json',
+            success: function (data) {
+                $('#details_title').html(data.data.title);
+                $('#details_text').html(data.data.content);
+            }
+        });
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    //
+    // 判断进入新闻逻辑
+    //
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    //判断url是否是显示新闻--更多新闻
+    var isNews = getQueryString('news');
+    if (isNews != null && isNews) {
+        setSelectStyle(2);
+        var newsId = getQueryString('newsId');
+        if (newsId != null) {
+            //说明是进详情
+            showOrHideDetail(newsId);
+        }
+    }
+
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+</script>
+
+</html>

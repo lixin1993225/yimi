@@ -1,0 +1,157 @@
+/*背景白色的*/
+
+.bg-w {
+    background-color: #fff;
+}
+
+/*需要固定高度*/
+.about {
+    min-height: 793px;
+}
+
+.about .details_left {
+    width: 180px;
+    float: left;
+}
+
+.newlist {
+    width: 178px;
+    text-align: center;
+    line-height: 46px;
+    color: #666666;
+    background: #FFFFFF;
+    padding: 0 0 50px;
+    border: 1px solid #f5f5f5;
+    margin-top: 5px;
+}
+
+.newlist li {
+    background: url("../images/about/about_line.png")/*tpa=http://www.migoedu.com/images/about/about_line.png*/ no-repeat bottom center;
+    margin-bottom: 1px;
+}
+
+.newlist li a {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+}
+
+.newlist li a:hover, .newlist li a.on {
+    color: #42bd7e;
+    background-color: #F2F2F9;
+}
+
+/*右边*/
+
+.details_right {
+    /*padding-left: 18px;*/
+    width: 780px;
+    float: right;
+    padding-top: 24px;
+    margin-left: 22px;
+}
+
+.details_right .title {
+    font-size: 16px;
+    border-bottom: 1px dotted #cccccc;
+    color: #51C5E6;
+    line-height: 40px;
+}
+
+.details_right .content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #393e40;
+}
+
+.details_right .content p {
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+.none {
+    display: none;
+}
+
+/*新闻*/
+
+.details_right ul {
+    padding: 28px 0;
+}
+
+.list_img {
+    width: 70px;
+    height: 70px;
+    margin: 0 46px;
+    float: left;
+}
+
+.list_img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px 10px;
+    display: block;
+}
+
+.list_txt {
+    color: #999999;
+    width: 590px;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+}
+
+.list_txt span {
+    display: block;
+}
+
+.list_txt_title {
+    display: block;
+    font-size: 16px;
+    color: #4a4a4a;
+    padding-bottom: 4px;
+}
+
+.list_txt .time {
+    /*display: block;*/
+    position: absolute;
+    bottom: 0;
+}
+
+/*新闻详情*/
+
+.bj {
+    background: #fff;
+    /*border-left: 2px solid #e2e2e2;*/
+    width: 778px;
+    padding-bottom: 20px;
+}
+
+.details_title {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    line-height: 84px;
+}
+
+.details_text {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.back {
+    padding-left: 28px;
+    padding-top: 20px;
+    display: table-cell;
+    font-size: 18px;
+    color: #42bd7e;
+    cursor: pointer;
+    line-height: 31px;
+}
+
+.back img {
+    vertical-align: middle;
+    margin-right: 8px;
+    float: left;
+}
